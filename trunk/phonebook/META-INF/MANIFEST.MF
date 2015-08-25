@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Phonebook Plug-in
+Bundle-SymbolicName: phonebook; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.feifei.phonebook.Activator
+Bundle-Vendor: dayfly
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.help.appserver,
+ org.eclipse.help.base,
+ org.eclipse.help.ui,
+ org.eclipse.help.webapp,
+ org.eclipse.tomcat,
+ org.eclipse.ui.forms
+Eclipse-LazyStart: true
+Bundle-ClassPath: lib/bloat-1.0.jar,
+ lib/db4o-7.6.62.11779-bench.jar,
+ lib/db4o-7.6.62.11779-db4ounit.jar,
+ lib/db4o-7.6.62.11779-instrumentation.jar,
+ lib/db4o-7.6.62.11779-java5.jar,
+ lib/db4o-7.6.62.11779-nqopt.jar,
+ lib/db4o-7.6.62.11779-osgi.jar,
+ lib/db4o-7.6.62.11779-osgi-test.jar,
+ lib/db4o-7.6.62.11779-taj.jar,
+ lib/db4o-7.6.62.11779-tools.jar,
+ lib/log4j-1.2.14.jar,
+ lib/org.eclipse.ui.forms_3.2.0.v20060602.jar,
+ lib/org.eclipse.ui.workbench_3.2.2.M20070119-0800.jar,
+ .
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.feifei.phonebook

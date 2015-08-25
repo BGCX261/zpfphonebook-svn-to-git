@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="src" kind="src"/>
+	<classpathentry path="lib/bloat-1.0.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-bench.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-db4ounit.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-instrumentation.jar" exported="true" kind="lib"/>
+	<classpathentry sourcepath="F:/db4o-7.6/src" path="lib/db4o-7.6.62.11779-java5.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-nqopt.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-osgi.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-osgi-test.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-taj.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/db4o-7.6.62.11779-tools.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/log4j-1.2.14.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/org.eclipse.ui.forms_3.2.0.v20060602.jar" exported="true" kind="lib"/>
+	<classpathentry path="lib/org.eclipse.ui.workbench_3.2.2.M20070119-0800.jar" exported="true" kind="lib"/>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5" kind="con"/>
+	<classpathentry path="org.eclipse.pde.core.requiredPlugins" kind="con"/>
+	<classpathentry path="bin" kind="output"/>
+</classpath>

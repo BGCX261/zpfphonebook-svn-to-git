@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.feifei.phonebook.model">
+	<class name="Email" table="tblEmail">
+		<id name="id">
+            <column name="id" sql-type="bigint"/>
+			<generator class="native"/>
+		</id>
+		<property name="emailAddress"/>
+		<property name="type"/>
+		<property name="comment"/>
+		<many-to-one name="contactor"
+		             class="Contactor">
+		    <column name="contactorId" sql-type="bigint"/>
+		</many-to-one>
+	</class>
+</hibernate-mapping>
